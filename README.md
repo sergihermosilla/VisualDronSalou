@@ -24,7 +24,7 @@ Mapa de ubicacion
 - (En este apartado se mostrará la descripción del equipo de trabajo, en este caso yo msimo)
 
 
-*Insterar foto Sergi*
+**Insterar foto Sergi**
 
 
 Amante de la fotografía y de la naturaleza. Formado como piloto profesional de drones y radiofonista.
@@ -36,8 +36,8 @@ Gracias a sus conocimientos en el mundo aéreo, aporta un nuevo punto de vista, 
 
 - (En este apartado se mostrarán las empresas con las que colaboramos)
 
-*Insertar logos de las empresas*
+**Insertar logos de las empresas**
 
-### Support or Contact
+### Contacta con nosotros
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- (En este apartado añadiré información como el email y/o el numero de telefonom y las redes sociales, para que puedan contactar)
