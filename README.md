@@ -28,7 +28,9 @@ Mapa de ubicacion
 
 
 Amante de la fotografía y de la naturaleza. Formado como piloto profesional de drones y radiofonista.
+
 Ha participado en diversos proyectos de carácter cinematográfico, publicista, videoclips y muchos más.
+
 Gracias a sus conocimientos en el mundo aéreo, aporta un nuevo punto de vista, al alcance de muy pocos.
 
 
