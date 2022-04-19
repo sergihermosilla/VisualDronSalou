@@ -1,5 +1,7 @@
 ## VUELA ALTO PARA QUE EL MUNDO TE VEA
 
+![Image text](imagenes/VDS.jpg)
+
 Visual Dron está especializada en producciones audiovisuales con tomas aéreas.
 
 Desde vídeos musicales hasta comerciales, Visual Dron puede hacer realidad el proyecto de tus sueños, sea cual sea. Trabajamos con la tecnología punta del mercado, además de utilizar los mejores programas de edición audiovisual del mercado. Todas nuestras grabaciones son retocadas por nuestro editor y colorista, garantizando un producto final perfecto a gusto del cliente.
