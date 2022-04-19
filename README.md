@@ -14,7 +14,7 @@ Desde vídeos musicales hasta comerciales, Visual Dron puede hacer realidad el p
 Mapa de ubicacion
 
 
-*Insertar mapa*
+![Image text](mapas/Ubi.png)
 
 
 - Con puntos georeferenciados
