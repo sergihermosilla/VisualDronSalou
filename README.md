@@ -10,7 +10,7 @@ Desde vídeos musicales hasta comerciales, Visual Dron puede hacer realidad el p
 
 - (En este apartado se mostrarán los trabajos realizados por visual, mediante un mapa de ubicación elaborado con QGIS.)
 
-```markdown
+
 Mapa de ubicacion
 
 
@@ -20,7 +20,6 @@ Mapa de ubicacion
 - Con puntos georeferenciados
 - Imágenes de los proyectos realizados
 
-```
 ### Sergi Hermosilla
 
 - (En este apartado se mostrará la descripción del equipo de trabajo, en este caso yo msimo)
