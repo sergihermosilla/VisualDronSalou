@@ -26,7 +26,7 @@ Mapa de ubicacion
 - (En este apartado se mostrará la descripción del equipo de trabajo, en este caso yo msimo)
 
 
-**Insterar foto Sergi**
+![Image text](imagenes/Imagen 2.png)
 
 
 Amante de la fotografía y de la naturaleza. Formado como piloto profesional de drones y radiofonista.
