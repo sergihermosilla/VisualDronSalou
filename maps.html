@@ -41,18 +41,12 @@
             <hr>
           </div>
         </div>
-            <!-- First Photo Grid-->
-    <div class="w3-third w3-container w3-margin-bottom">
-      <p><b>Mapa a partir del Qgis2Web</b></p>
-      <img src="mapas/Ubi.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      </div>
-  </div>
          <!-------------------------------------------------------------------------------------------->
   <!--Start Mapa JS leaflet-->
-        <div id="map"></div>
+        <div class="w3-third w3-container w3-margin-bottom">
+      <p><b>Mapa a partir del Qgis2Web</b></p>
+	      <div id="map">
+	      </div>
 
     <script type="text/javascript">
         var map = L.map('map').setView([43.26271, -2.92528], 15);
@@ -67,6 +61,8 @@
 
         var marker = L.marker([43.26271, -2.92528]).bindPopup(popup).openPopup().addTo(map);
     </script>
+		<p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
  <!--End Mapa JS leaflet-->
          <!-------------------------------------------------------------------------------------------->
  <!--Start Mapa iframe-->
