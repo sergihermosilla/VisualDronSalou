@@ -13,6 +13,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/leaflet.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/> 
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <style type="text/css">
+        #map {
+            height: 800px;
+        }
+    </style>
 <link rel="stylesheet" href="css/leaflet.css" />
 	<style>
     .menu-maps {
@@ -45,22 +52,21 @@
   </div>
          <!-------------------------------------------------------------------------------------------->
   <!--Start Mapa JS leaflet-->
-        <div id = 'map'>
-	      </div>
-	     <script>
-var map = L.map('map').
-setView([41.66, -4.72], 
-14);
- 
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-    maxZoom: 18
-}).addTo(map);
+        <div id="map"></div>
 
-L.control.scale().addTo(map);
-L.marker([41.66, -4.71], {draggable: true}).addTo(map);
+    <script type="text/javascript">
+        var map = L.map('map').setView([43.26271, -2.92528], 15);
 
- </script>
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var popup = L.popup()
+            .setLatLng([43.26271, -2.92528])
+            .setContent('<a href="https://www.youtube.com/watch?v=YcAW-VbTYnY" target="_blank">La capital del mundo</a>');
+
+        var marker = L.marker([43.26271, -2.92528]).bindPopup(popup).openPopup().addTo(map);
+    </script>
  <!--End Mapa JS leaflet-->
          <!-------------------------------------------------------------------------------------------->
  <!--Start Mapa iframe-->
