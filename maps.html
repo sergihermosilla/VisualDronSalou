@@ -12,7 +12,9 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
-  <style>
+  <script src="js/leaflet.js"></script>
+<link rel="stylesheet" href="css/leaflet.css" />
+	<style>
     .menu-maps {
       color: rgb(255, 255, 255) !important;
       opacity: 1 !important;
@@ -44,7 +46,21 @@
          <!-------------------------------------------------------------------------------------------->
   <!--Start Mapa JS leaflet-->
         <div id = 'map'>
-		</div>
+	      </div>
+	     <script>
+var map = L.map('map').
+setView([41.66, -4.72], 
+14);
+ 
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+    maxZoom: 18
+}).addTo(map);
+
+L.control.scale().addTo(map);
+L.marker([41.66, -4.71], {draggable: true}).addTo(map);
+
+ </script>
  <!--End Mapa JS leaflet-->
          <!-------------------------------------------------------------------------------------------->
  <!--Start Mapa iframe-->
