@@ -5,6 +5,12 @@
  * If you want to keep this template updated, avoid modifying this file
  * Instead, add your own CSS in the index.css
  *************************************************************************/
+const goToTop = () => {
+  document.body.scrollIntoView({
+    behavior: "smooth",
+  });
+};
+backToTopButton.addEventListener("click", goToTop)
 .back-to-top {
   position: fixed;
   right: 2rem;
@@ -16,6 +22,9 @@
   cursor: pointer;
   opacity: 100%;
   transition: opacity 0.5s;
+}
+.hidden {
+  opacity: 0%;
 }
 .custom-image-button {
   display: flex;
