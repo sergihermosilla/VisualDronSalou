@@ -60,18 +60,18 @@
     
         var capitales = new L.LayerGroup();
         
-    var Augusta_Emerita = L.marker([38.91667, -6.33333], {
-        title: "Augusta Emerita", 
+    var Barcelona = L.marker([41.37393, 2.17620], {
+        title: "Barcelona", 
         draggable:true, 
         opacity: 0.75
-            }).bindPopup("<i>Augusta Emerita</i>")
+            }).bindPopup("<i>Barcelona</i>")
             .addTo(capitales);
         
-    var Corduba = L.marker([37.8847, -4.77639], {
-        title: "Corduba", 
+    var Madrid = L.marker([40.41551, -3.70737], {
+        title: "Madrid", 
         draggable:false, 
         opacity: 1
-            }).bindPopup("<b>Corduba</b>")
+            }).bindPopup("<b>Madrid</b>")
             .addTo(capitales);
         
     var Tarraco = L.marker([41.114722, 1.259306], {
@@ -85,7 +85,7 @@
             "capa base OSM": osm
         };
         var capas_tematicas = {
-            "Capitales romanas de Hispania": capitales
+            "¿Dónde nos encontramos?": capitales
         };
         
         L.control.layers(capas_base, capas_tematicas).addTo(map);
