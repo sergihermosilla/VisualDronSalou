@@ -37,33 +37,7 @@
       <div class="content-table flex-column">
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <body>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
-
-<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-
-</body>
+            
         <!-------------------------------------------------------------------------------------------->
         <!--Start Text with Gallery-->
         <div class="flex-row">
@@ -113,22 +87,24 @@ function topFunction() {
         </div>
         <!--End Credits-->
         <!-------------------------------------------------------------------------------------------->
-          <div class="flex-row">
-          <div class="control-group">
-           <a href="#">
-             <button class="custom-button pulse-black">To the top</button></a>
-            <!-- Footer -->
-
+         <!-- Footer -->
     <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
-  
+  <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic">
+              Credits: <span class="highlight-text">Created by</span>: Sergi Hermosilla Porras
+            </p>
     <p class="fs-5 px-3  pt-3">Visual Dron Salou. &copy; Todos Los Derechos Reservados 2022</p>
   <div class="iconos" >
       <a href="#"><i class="bi bi-facebook"></i></a>
       <a href="#"><i class="bi bi-twitter"></i></a>
       <a href="#"><i class="bi bi-instagram"></i></a>  
   </div>
- 
+ <div class="control-group">
+           <a href="#">
+             <button class="custom-button pulse-black">To the top</button></a>
 </footer>
+          
        </div>
           </div>
           </div>
